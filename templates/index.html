@@ -14,5 +14,15 @@
 </head>
 <body>
     <h1>Type smth in:</h1>
+    <form method="post">
+        <textarea id="summernote" name="editordata"></textarea>
+        <input type="submit" value="Add Content"/>
+    </form>
+
+<script>
+    $(document).ready(function() {
+        $('#summernote').summernote();
+});
+</script>
 </body>
 </html>
